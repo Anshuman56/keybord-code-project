@@ -1,0 +1,14 @@
+.leader__heading{
+    text-align: center;
+    font-weight: var(--fw-normal);
+    font-size: 1.4rem;
+   
+}
+.leader__contener{
+    border: 1px solid var(--third-color);
+    padding: .5rem;
+    display: grid;
+    gap: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+}

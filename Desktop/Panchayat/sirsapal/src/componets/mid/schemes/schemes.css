@@ -1,0 +1,20 @@
+.schemes{
+    text-align: center;
+    display: grid;
+    gap:1rem;
+   }
+   .schemes__header{
+       color: var(--first-color);
+   }
+   .schemes__contener{
+    display: flex;
+    gap: 2.2rem;
+    
+   }
+   @media (max-width:965px){
+    .schemes__contener{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}

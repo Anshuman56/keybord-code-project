@@ -1,0 +1,10 @@
+.galleryCol__contener{
+    width: 25vw;
+    height: 350px;
+    border: 1px solid green;
+}
+@media (max-width:965px){
+    .galleryCol__contener{
+       width: 80vw;   
+    }
+}

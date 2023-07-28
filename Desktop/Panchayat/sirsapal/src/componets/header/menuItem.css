@@ -1,0 +1,13 @@
+.menu-items button{
+    width: 100%;
+    color: inherit;
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.menu-items > a {
+    text-align: left;
+   
+  }

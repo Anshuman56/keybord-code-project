@@ -1,0 +1,25 @@
+.population{
+   width: 80vw;
+ text-align: center;
+ display: grid;
+ gap:2rem;
+}
+.population__header{
+    color: var(--first-color);
+}
+.population__contener{
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2); 
+    display: flex;
+   padding: 3rem;
+    justify-content: center;
+    align-items: center;  
+    gap: 15%;
+    background-color: var(--four-color);
+}
+@media (max-width:965px){
+    .population__contener{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}

@@ -1,0 +1,20 @@
+:root{
+  --first-color: #2bae66;
+  --second-color: #fff;
+  --third-color: #dfdfdf;
+  --four-color: #f7f7f7;
+  --five-color: #817590;
+  --six-color:#00c851;
+  --primery--ff:'Roboto', sans-serif;
+  --fw-light: 300;
+  --fw-regula: 400;
+  --fw-midium: 500;
+}
+.App{
+  font-family: var(--primery--ff);
+  width: 98.7vw;
+  
+}
+li{
+  list-style: none;
+}

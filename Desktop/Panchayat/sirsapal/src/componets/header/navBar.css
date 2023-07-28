@@ -1,0 +1,27 @@
+.menu{
+    
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    gap:.5rem;
+}
+.menu-items{
+    border: 1px solid var(--second-color);
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    font-weight: var(--fw-midium);
+    position: relative;
+}
+.menu-items a{
+    color: var(--second-color);
+    text-decoration: none;
+}
+@media (max-width:965px){
+    .menu{
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+   
+}

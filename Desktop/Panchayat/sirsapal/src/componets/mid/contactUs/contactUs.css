@@ -1,0 +1,56 @@
+.contact-us{
+    text-align: center;
+    display: grid;
+    gap:1rem;
+   }
+   .contact-us__header{
+       color: var(--first-color);
+   }
+   .contact-us__contener{
+    display: flex;
+    gap: 2.2rem;
+   }
+   /* contact form styel */
+   .contact-us__form{
+   
+    text-align: left;
+    margin-left: 5rem;
+   }
+   .contat-us__form__items{
+    display: grid;
+    gap: 1rem;
+
+    
+   }
+   .contat-us__form__items label{
+    display: block;
+   }
+   .contat-us__form__items input, .contat-us__form__items textarea  {
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid var(--five-color);
+   }
+  
+   .contat-us__submit-button{
+    background-color: var(--first-color);
+    border: none;
+    color: var(--second-color);
+    border-radius: 3px;
+    padding: .2rem .5rem;
+   }
+   /* map style */
+   .contact-us__map {
+    text-align: left;
+    width: 37vw;
+   }
+   @media (max-width:965px){
+    .contact-us__contener{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .contat-us__form__items input, .contat-us__form__items textarea {
+        width: 50vw;
+        
+    }
+}
